@@ -12,7 +12,7 @@ function Success() {
         <div className="h-screen flex justify-center content-center items-center bg-gray-700">
             <div className="flex flex-col gap-4 justify-evenly lg:justify-center bg-white rounded-xl p-8 w-screen h-screen lg:w-[30%] lg:h-[50%]">
                 <div className={"flex flex-col gap-4"} >
-                    <img src={"/assets/images/icon-success.svg"} className={"w-[50px]"}/>
+                    <img src={"/assets/images/icon-success.svg"} className={"w-[50px]"} alt="success"/>
                     <p className={"text-5xl font-bold"}>Thanks for subscribing!</p>
                     <p>A confirmation email has been sent to <span
                         className={"font-bold"}>{location?.state?.email}</span>. Please open it and click the button

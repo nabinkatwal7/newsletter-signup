@@ -35,19 +35,19 @@ function App() {
             <ul>
                 <li>
                     <div className={"flex flex-row items-center gap-4"}>
-                        <img src="/assets/images/icon-list.svg"/>
+                        <img src="/assets/images/icon-list.svg" alt={"tick"}/>
                         <p>Product discovery and building what matters.</p>
                     </div>
                 </li>
                 <li>
                     <div className={"flex flex-row items-center gap-4"}>
-                        <img src="/assets/images/icon-list.svg"/>
+                        <img src="/assets/images/icon-list.svg" alt={"tick"}/>
                         <p>Measuring to ensure updates are a success.</p>
                     </div>
                 </li>
                 <li>
                     <div className={"flex flex-row items-center gap-4"}>
-                        <img src="/assets/images/icon-list.svg"/>
+                        <img src="/assets/images/icon-list.svg" alt={"tick"}/>
                         <p>And much more!</p>
                     </div>
                 </li>
@@ -63,7 +63,7 @@ function App() {
             </div>
         </div>
           <div>
-              <img src="/assets/images/illustration-sign-up-desktop.svg"/>
+              <img src="/assets/images/illustration-sign-up-desktop.svg" alt={"illustration"}/>
           </div>
       </div>
     </div>
